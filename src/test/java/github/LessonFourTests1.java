@@ -7,11 +7,11 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static java.lang.Thread.sleep;
 
-public class LessonFour {
+public class LessonFourTests1 {
 
 
 
-        public void LessonFourTests() throws InterruptedException {
+    public void LessonFourTests() throws InterruptedException {
 
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
