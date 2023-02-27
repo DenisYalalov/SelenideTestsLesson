@@ -4,8 +4,6 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-
-
 class TestSecondLessonSelenide {
     @Test
     public void SecondLessonSelenide() throws InterruptedException {
