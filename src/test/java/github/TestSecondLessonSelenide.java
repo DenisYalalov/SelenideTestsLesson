@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 class TestSecondLessonSelenide {
     @Test
-    public void SecondLessonSelenide() throws InterruptedException {
+    public void secondLessonSelenide() throws InterruptedException {
         open("https://github.com/");
         $("div.header-menu-wrapper").$(byText("Solutions")).hover();
         $(byText("Enterprise")).click();
